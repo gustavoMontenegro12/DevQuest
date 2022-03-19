@@ -1,0 +1,17 @@
+.box{
+    background-color: aqua;
+    
+}
+.box-item{
+    display: inline-block;
+    text-align: center;
+}
+.box-item.texto{
+   margin-right: auto;
+    
+}
+.box-item.imagem{
+    max-width: 33.33%;
+    max-height: 350px;
+    margin-left: auto;
+}
