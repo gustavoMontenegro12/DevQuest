@@ -1,0 +1,18 @@
+html{
+    background-color: bisque;
+    font-size: 32px;
+}
+body{
+    background-color: rgb(89, 0, 255);
+    width: 50%;
+}
+.pai{
+    background-color: rgb(192, 61, 253);
+    width: 50%;
+    font-size: 2rem;
+}
+.filho{
+    background-color: aquamarine;
+    width: 50%;
+    font-size: 1rem;
+}
