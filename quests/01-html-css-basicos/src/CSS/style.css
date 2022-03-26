@@ -1,0 +1,24 @@
+.titulo {
+    margin: 15px 0;
+}
+
+.tabela {
+    text-align: center;
+    color: aliceblue;
+}
+
+.tabela-cabecalho.roxo{
+    background-color: #BB86FC;
+}
+
+.linha {
+    padding: 10px;
+}
+
+.tabela-linha {
+    background-color: #424250;
+}
+
+.tabela-cabecalho.verde{
+    background-color: #00C4B4;
+}
