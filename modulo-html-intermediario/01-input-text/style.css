@@ -1,0 +1,11 @@
+.input-container {
+    background-color: blueviolet;
+    width: 35%;
+    padding: 30px;
+}
+
+.input {
+    margin: 15px;
+    padding: 10px 8px;
+    text-align: center;
+}
