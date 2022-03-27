@@ -1,0 +1,39 @@
+.titulo{
+    background-color: rgb(0, 110, 255);
+    padding: 25px;
+    width: 190px;
+    text-align: center;
+    
+}
+
+.produto{
+    background-color: aqua;
+    width: 400px;
+}
+
+.produto span {
+    color: rgb(0, 3, 196);
+    font-weight: bold;
+} 
+
+.titulo-produto{
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 200px;
+    padding: 25px;
+    text-align: center;
+    
+}
+
+.descricao-produto{
+    background-color: rgb(245, 29, 162);
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+    width: 350px;
+    padding: 5px;
+}
+
+.promocao{
+    border: solid 2px greenyellow;
+}
