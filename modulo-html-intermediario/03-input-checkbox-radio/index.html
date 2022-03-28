@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Um site para o estudo de inputs do tipo checkbox e radio"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Input checkbox e radio</title>
+  </head>
+  <body>
+    <div class="container-principal">
+      <h1 class="titulo-principal">Input Checkbox e Radio</h1>
+      <div class="container-cadastro">
+        <h3 class="titulo-cadastro-novo-usuario">Cadastro de Novo Usuário</h3>
+
+        <label for="nome">Nome Completo</label><br />
+        <input
+          type="text"
+          name="nome"
+          id="nome"
+          class="input-cadastro"
+        /><br />
+
+        <label for="email">Email</label><br />
+        <input
+          type="text"
+          name="email"
+          id="email"
+          class="input-cadastro"
+        /><br />
+
+        <label for="cpf">CPF</label><br />
+        <input
+          type="number"
+          name="cpf"
+          id="cpf"
+          class="input-cadastro"
+        /><br />
+
+        <label for="senha">Senha</label><br />
+        <input
+          type="password"
+          name="senha"
+          id="senha"
+          class="input-cadastro"
+        /><br />
+
+        <label for="confirmar-senha">Confirme sua Senha</label><br />
+        <input
+          type="password"
+          name="confimar-senha"
+          id="confirmar-senha"
+          class="input-cadastro"
+        /><br />
+      </div>
+
+      <div class="container-genero">
+        <h3 class="titulo-opcao-genero">Gênero</h3>
+        <input type="radio" name="genero" id="masculino" class="opcao-genero"/>
+        <label for="masculino">Masculino</label><br />
+
+        <input type="radio" name="genero" id="feminino" class="opcao-genero"/>
+        <label for="feminino">Feminino</label><br />
+
+        <input type="radio" name="genero" id="nao-especificar" class="opcao-genero"/>
+        <label for="nao-especificar">Prefiro não especificar</label>
+      </div>
+
+      <div class="container-linguagens-programacao">
+        <h3 class="titulo-linguagem-programacao">Linguagens de Programação</h3>
+
+        <input
+          type="checkbox"
+          name="linguagens"
+          id="c#"
+          class="checkbox-linguagens"
+        />
+        <label for="c#">C#</label><br />
+
+        <input
+          type="checkbox"
+          name="linguagens"
+          id="java"
+          class="checkbox-linguagens"
+        />
+        <label for="java">Java</label><br />
+
+        <input
+          type="checkbox"
+          name="linguagens"
+          id="html"
+          class="checkbox-linguagens"
+        />
+        <label for="html">HTML</label><br />
+
+        <input
+          type="checkbox"
+          name="linguagens"
+          id="css"
+          class="checkbox-linguagens"
+        />
+        <label for="css">CSS</label><br />
+
+        <input
+          type="checkbox"
+          name="linguagens"
+          id="javascript"
+          class="checkbox-linguagens"
+        />
+        <label for="javascript">JavaScript</label><br />
+      </div>
+    </div>
+  </body>
+</html>
