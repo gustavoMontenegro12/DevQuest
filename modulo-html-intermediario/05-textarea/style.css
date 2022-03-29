@@ -1,0 +1,14 @@
+.container-principal {
+    background-color: blueviolet;
+    width: 350px;
+    padding: 15px 25px;
+    color: aliceblue;
+}
+
+#textarea-label {
+    margin: 15px;
+}
+
+#texto {
+    margin: 15px;
+}
