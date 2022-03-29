@@ -1,0 +1,9 @@
+.select-container {
+    background-color: rgb(238, 24, 167);
+    width: 35%;
+    padding: 15px 20px;
+}
+
+#select-label {
+    color: aliceblue;
+}
