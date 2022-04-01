@@ -11,7 +11,7 @@
     background-color: #BB86FC;
 }
 
-.linha {
+.tabela th, td {
     padding: 10px;
 }
 
