@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site para estudo de especificidade e efeito cascata no CSS">
+    <link rel="stylesheet" href="style.css">
+    <title>Epecificidade e efeito cascata</title>
+</head>
+<body>
+    <header>
+        <h1>Especificidade e Efeito cascata</h1>
+    </header>
+    <main>
+        <div class="container-cascata">
+            <h3>Efeito cascata</h3>
+            <p><strong> Aqui prevalece a cor violeta, pois é a ultima declarada</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit magnam atque illo nam molestiae maxime! Doloribus, tempore? Maxime, impedit sequi recusandae cumque, quis dolores mollitia magnam quos odio illo rem!</p>
+        </div>
+
+        <div class="container-especificidade" id="container-especificidade">
+            <h3>Especificidade</h3>
+            <p><strong>Aqui prevale a cor verde, pois o ID é o seletor mais específico dentro das boas práticas</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab praesentium, fuga nesciunt ratione impedit repudiandae quod, adipisci sapiente dolor consequatur quia dolorem laudantium possimus? Enim voluptatem ab iure reiciendis esse.</p>
+        </div>
+    </main>
+</body>
+</html>
