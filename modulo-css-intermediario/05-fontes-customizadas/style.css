@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'fonte bitmap';
+    src: url(./fontes/Spritecoder_Regular.ttf);
+}
+
+html {
+    font-family: 'fonte bitmap', Arial, Helvetica, sans-serif;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 300;
+}
