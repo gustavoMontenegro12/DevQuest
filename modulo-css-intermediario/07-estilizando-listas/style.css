@@ -1,0 +1,12 @@
+ul, ol {
+    /* list-style-type: square;
+    list-style-image: url(/modulo-css-intermediario/07-estilizando-listas/src/imagens/icone.png); */
+    /* list-style-position: inside; */
+    list-style: url(/modulo-css-intermediario/07-estilizando-listas/src/imagens/icone.png) inside square
+}
+
+li {
+    padding: 15px;
+    background-color: violet;
+    width: 30%;
+}

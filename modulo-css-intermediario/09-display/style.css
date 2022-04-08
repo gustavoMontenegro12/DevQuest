@@ -1,0 +1,58 @@
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    
+    font-size: 24px;
+
+}
+
+ul {
+    margin-bottom: 50px;
+}
+
+li {
+    text-align: center;
+}
+
+.nav-menu li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+/*<ul> são display block por padrão no navegador*/
+.bloco li{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    margin: 10px 5px;
+}
+
+.em-linha li {
+    display: inline;
+    background-color: brown;
+    padding: 0 10px;
+    margin: 10px;
+}
+
+.em-linha-e-bloco li {
+    display: inline-block;
+    background-color: violet;
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.esconder li {
+    display: inline;
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+    padding: 0 10px;
+    margin-right: 20px;
+
+}

@@ -1,0 +1,19 @@
+a{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    
+}    
+
+a:visited {
+    background-color: green;
+}
+
+a:active{
+    color: black;
+}
+
+a:hover{
+    background-color: greenyellow;
+}
