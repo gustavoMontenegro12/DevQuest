@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(69, 0, 133);
+    padding-top: 78px;
+}
+
+.cabecalho {
+    padding: 15px 5px;
+    background-color: rgb(227, 40, 140);
+    color: aliceblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.cabecalho .logo {
+    display: inline-block;
+}
+
+.cabecalho nav{
+    float: right;
+}
+
+.cabecalho nav li {
+    display: inline-block;
+    padding: 15px;
+    
+}
+
+.cabecalho a {
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+
+main {
+    background-color: aliceblue;
+    padding: 30px;
+    min-width: 320px;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.info {
+    font-size: 18px;
+}
+main p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 10px 0;
+}
