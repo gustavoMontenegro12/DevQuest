@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    font-family: monospace;
+}
+
+v
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+nav li:hover{
+    transform: translate(2px, -2px);
+    text-shadow: 2px 2px 7px black;
+    cursor: pointer; 
+}
+
+body {
+    height: 1580px;
+    padding-top: 77px;
+}
+h2 {
+    padding: 0 10px;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify;
+    padding: 2px 5px 2px 5px;
+}
