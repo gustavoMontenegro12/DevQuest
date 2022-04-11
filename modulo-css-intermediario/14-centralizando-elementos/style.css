@@ -1,0 +1,52 @@
+body {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+.container {
+    background-color: lightgray;
+    height: 300px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    background-color: lightseagreen;
+    color: white;
+    font-size: 1.2em;
+}
+
+.texto-centralizado-1 {
+    width: 250px;
+    height: 250px;
+    background-color: violet;
+    text-align: center;
+    line-height: 250px;
+}
+.texto-centralizado-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.alinhado-margin-auto {
+    display: block;
+    margin: auto;
+}
+
+.margin-e-absolute {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.alinhando-com-text-align {
+    text-align: center;
+}
