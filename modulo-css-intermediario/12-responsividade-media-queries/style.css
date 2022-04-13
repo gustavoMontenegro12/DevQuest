@@ -48,3 +48,67 @@ main p {
     text-align: justify;
     margin: 10px 0;
 }
+
+/* Tamanhos de media queries */
+
+/* // dispositivos extra pequenos (celulares em posição porta retrato, menores do que 576px) */
+
+@media (max-width: 576px) { 
+    body {
+        padding-top: 202px;
+    }
+
+    .cabecalho {
+        text-align: center;
+    }
+
+    .cabecalho nav {
+        float: none;
+    }
+    .cabecalho nav li {
+        display: block;
+    }
+
+    .info h2 {
+        text-align: center;
+    }
+
+    .imagem {
+        max-width: 445px;
+        margin: 0 auto;
+    }
+ }
+
+/* // dispositivos pequenos (celulares em posição paisagem, menos de 768px) */
+
+@media (max-width: 768px) { 
+    
+    .imagem {
+        margin: 0 auto;
+        width: 445px;
+        height: 294px;
+    }
+ }
+
+/* // dispositivos médios (tablets, menos de 992px) */
+
+@media (max-width: 992px) { 
+    .cabecalho {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+    .imagem {
+        margin: 0 auto;
+        width: 445px;
+        height: 294px;
+    }
+ }
+
+/* // dispositivos grandes (desktops, menos de 1200px) */
+
+@media (max-width: 1200px) {  }
+
+/* // dispositivos extra grandes (desktops grandes) */
+
+/* // 1200px ou mais, não tem breakpoint */
