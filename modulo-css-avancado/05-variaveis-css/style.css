@@ -1,0 +1,31 @@
+:root{
+    --eixoX-padrao: 200px;
+    --eixoY-padrao: 200px;
+    --cor-padrao: blueviolet;
+    --cor-variante: orange;
+    --cor-backup: blue;
+}
+
+div.quadrado{
+    width: var(--eixoX-padrao);
+    height: var(--eixoY-padrao);
+    margin-bottom: 15px;
+
+}
+
+div.quadrado.primeiro{
+    background-color: var(--cor-padrao, --cor-backup);
+}
+
+div.quadrado.segundo{
+    background-color: var(--cor-variante, --cor-backup);
+}
+
+div.quadrado.terceiro{
+    background-color: var(--cor-padrao, --cor-backup);
+}
+
+div.quadrado.quarto{
+    --cor-quarto: red;
+    background-color: var(--cor-quarto);
+}
