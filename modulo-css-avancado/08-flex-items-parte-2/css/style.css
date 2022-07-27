@@ -1,0 +1,51 @@
+/* Sintaxe:
+Flex: flex-grow flex-shrink e flex-basis */
+
+.flex-0{
+    flex: 0;
+}
+
+.flex-1{
+    flex: 1 1 100px;
+}
+
+.flex{
+    flex: 0 1 100px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.order .item{
+    flex: 1;
+}
+
+.item.item-3{
+    order: 5;
+}
+
+.item.item-5{
+    order: -5;
+}
+
+.auto .item-5{
+    align-self: auto;
+}
+
+.align-self.start .item-5{
+    align-self: flex-start;
+}
+
+.align-self.end .item-5{
+    order: 0;
+    align-self: flex-end;
+}
+
+.align-self.center .item{
+    align-self: center;
+}
+
+.align-self.stretch .item-5{
+    align-self: stretch;
+}
