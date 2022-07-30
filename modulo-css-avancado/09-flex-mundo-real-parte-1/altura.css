@@ -1,0 +1,32 @@
+.flex{
+    display: flex;
+    width: 960px;
+    max-width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.flex img {
+    max-width: 100%;
+}
+
+.coluna h2,
+.coluna p {
+    align-self: center;
+    text-align: center;
+    text-justify: auto;
+}
+
+.flex .coluna{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 250px;
+    margin: 1em;
+
+}
+
+.flex .botao{
+    align-self: flex-start;
+    margin-top: auto;
+}
