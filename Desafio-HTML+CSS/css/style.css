@@ -1,0 +1,43 @@
+.flex{
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 45px 45px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: 800; 
+}
+
+.logo img{
+    margin-right: 10px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;   
+}
+
+.menu li a{
+    padding: 11px 7px;
+    transition: 0.3s ease-in-out;
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.menu li a:hover{
+    background-color: #5BC241;
+    color: #FFFFFF;
+}
+.menu li a.botao{
+    background: #5BC241;
+    color: azure;
+    padding: 10px 21px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
