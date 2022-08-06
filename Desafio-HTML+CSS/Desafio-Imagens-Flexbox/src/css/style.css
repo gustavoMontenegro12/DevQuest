@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Public Sans', sans-serif;
+    position: relative;
+    padding: 128px 21px;
+}
+
+.imagem{
+    width: 335px;
+    height: 431px;
+}
+
+.rome, 
+.boat,
+.sand-and-sea,
+.starry-night{
+    height: 431px;
+}
+
+.obra{
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    top: 457px;
+    margin-left: 26px;
+    line-height: 35px;
+    width: 211px;
+}
+
+.artista{
+    position: absolute;
+    font-size: 17px;
+    font-weight: 400;
+    top: 497px;
+    margin-left: 26px;
+    width: 152px;
+}
