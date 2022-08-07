@@ -1,45 +1,7 @@
-@media(max-width:1350px){
+@media(max-width:1400px){
     .container{
-        flex-direction: column; 
+        max-width: 900px;
+        margin: 30px 0;  
         justify-content: center;
-        padding: 45px 20px;       
-    }
-
-    .obra,
-    .artista{
-        margin-left: 22px;
-    }
-
-    .rome .obra{
-        top: 396px;
-        
-    }
-
-    .rome .artista{
-        top: 436px
-    }
-
-    .boat .obra{
-        top: 834px;
-    }
-
-    .boat .artista{
-        top: 874px;
-    }
-
-    .sand-and-sea .obra{
-        top: 1266px
-    }
-
-    .sand-and-sea .artista {
-        top: 1306px;
-    }
-
-    .starry-night .obra{
-        top: 1690px;
-    }
-
-    .starry-night .artista{
-        top: 1730px;
     }
 }

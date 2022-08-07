@@ -1,38 +1,44 @@
-.container{
-    display: flex;
-    flex-wrap: wrap;
+html{
     font-family: 'Public Sans', sans-serif;
-    position: relative;
-    padding: 128px 21px;
 }
 
-.imagem{
+body {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.container .pintura{
+    position: relative;
     width: 335px;
     height: 431px;
 }
 
-.rome, 
-.boat,
-.sand-and-sea,
-.starry-night{
-    height: 431px;
+.container .pintura .imagem{
+    width: 100%;
 }
 
-.obra{
+.container .pintura .informacoes{
+    position: absolute;
+    color: white;
+    bottom: 40px;
+    left: 20px;
+}
+
+.container .pintura .informacoes .obra{
     font-size: 30px;
     font-weight: 700;
-    position: absolute;
-    top: 457px;
-    margin-left: 26px;
-    line-height: 35px;
-    width: 211px;
+    margin-bottom: 8px;
 }
 
-.artista{
-    position: absolute;
+.container .pintura .informacoes .artista{
     font-size: 17px;
-    font-weight: 400;
-    top: 497px;
-    margin-left: 26px;
-    width: 152px;
+    font-weight: 300;  
 }
