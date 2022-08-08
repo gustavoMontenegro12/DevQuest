@@ -1,0 +1,18 @@
+.container > div{
+    border: 1px solid black;
+    color: #FFFFFF;
+    font-size: 20px;
+    background-color: rgb(226, 43, 144);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    /* A 1ª coluna tem um mínimo de 100px e máximo de 500px */
+    /* A 2ª e 3ª coluna tem um mínimo de 100px e máximo de 800px */
+    /* A 4ª coluna tem seu minmax auto */
+
+    display: grid;
+    grid-template-columns: minmax(100px, 500px) repeat(2, minmax(100px, 800px)) minmax(auto, auto);
+}

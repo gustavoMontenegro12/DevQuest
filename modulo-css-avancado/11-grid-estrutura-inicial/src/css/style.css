@@ -1,0 +1,29 @@
+.container > div{
+    border: 1px black solid;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+
+    /* Antes da abreviação:
+    grid-template-columns: auto auto 100px 250px;
+    grid-template-rows: 100px 100px 150px; */
+
+    /* Depois da abreviação */
+    grid-template: repeat(2, 100px) 150px / repeat(2, auto) 100px 250px;
+
+    /* Com abreviação: */
+    grid-gap: 10px 20px;
+
+    /* Sem abreviação: 
+    grid-row-gap: 10px;
+    grid-column-gap: 20px; */
+
+}
+
