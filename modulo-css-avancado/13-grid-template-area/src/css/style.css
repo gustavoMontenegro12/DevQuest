@@ -1,0 +1,59 @@
+h1{
+    text-align: center;
+    color: black;
+    margin-bottom: 25px;
+}
+
+
+.cabecalho{
+    background-color: blueviolet;
+    grid-area: cabecalho;
+}
+
+.menu{
+    background-color: rgb(205, 205, 0);
+    grid-area: menu;
+}
+
+.secao-principal{
+    background-color: orangered;
+    grid-area: secao-principal;
+}
+
+.aside{
+    background-color: blue;
+    grid-area: aside;
+}
+
+.rodape{
+    background-color: green;
+    grid-area: rodape;
+}
+
+.container{
+    padding: 0 15px;
+    display: grid;
+    grid-gap: 5px;
+    /* Sem abreviação:
+
+    grid-template-areas: 
+    "cabecalho cabecalho cabecalho" 
+    "menu secao-principal aside" 
+    "rodape rodape rodape"; */
+
+    /* Com abreviação: 
+    Aqui podemos passar valores que determinam os tamanhos de altura e largura*/
+    grid: 
+    "cabecalho cabecalho cabecalho" 100px
+    "menu secao-principal aside" 200px
+    "rodape rodape rodape" 100px 
+    /* Valores das colunas */ /
+    100px auto 100px;
+}
+
+.container > *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
