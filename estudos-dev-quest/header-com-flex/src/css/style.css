@@ -1,0 +1,66 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    margin-right: 10px;
+}
+
+.logo a{
+    font-weight: 700;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a{
+    padding: 20px 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    transition: 0.3ms ease-in-out;
+}
+
+.menu ul li a:hover{
+    background-color: green;
+    color: #FFFFFF;
+}
+
+.secao-principal-container{
+    display: grid;
+    grid-template: minmax(100px, 500px) / repeat(3, auto);
+}
+
+.titulo{
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 30px;
+    bottom: 20px;
+    left: 10px;
+}
+
+.relative{
+    position: relative;
+}
+
+
+.menu-section{
+    background-color: rgb(194, 5, 194);   
+}
+
+.secao-principal{
+    background-color: rgb(41, 187, 45);
+}
+
+.aside{
+    background-color: rgb(60, 60, 232);
+}

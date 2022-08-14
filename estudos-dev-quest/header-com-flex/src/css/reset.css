@@ -1,11 +1,11 @@
 *{
-    margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    margin: 0;
     font-size: 20px;
+    font-family: 'Lucida Sans', sans-serif;
 }
 
-ul, li{
+ul, ol, li{
     list-style: none;
 }
 
