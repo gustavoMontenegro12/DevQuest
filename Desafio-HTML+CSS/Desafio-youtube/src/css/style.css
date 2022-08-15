@@ -1,0 +1,81 @@
+.container{
+    display: grid;
+    grid-template-columns: 543px 270px ;
+    grid-gap: 17px;
+    padding: 38px 35px;
+    font-family: 'Roboto', sans-serif;}
+
+.retangulo{
+    background-color: #C4C4C4;
+}
+
+.titulo{
+    font-weight: 700;
+}
+
+
+
+.container .container-destaque .retangulo{
+    width: 543px;
+    height: 217px;
+}
+
+.container .container-destaque .titulo{
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 7px;
+}
+
+.container .container-destaque .visualizacao{
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+
+.container .container-destaque .descricao{
+    width: 538px;
+    font-size: 16px;
+}
+
+.container-propaganda .retangulo{
+    width: 270px;
+    height: 56px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container-propaganda .retangulo p{
+   font-size: 11px;
+}
+
+.container-propaganda .videos-recomendados .video .retangulo{
+    width: 101px;
+    height: 71px;
+    margin-right: 4px;
+
+}
+.container-propaganda .videos-recomendados{
+    flex: 1;
+}
+
+.container-propaganda .videos-recomendados .video .informacoes{
+    width: 162px;
+}
+
+.container-propaganda .videos-recomendados .video .informacoes .titulo{
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.container-propaganda .videos-recomendados .video .informacoes p{
+    font-size: 11px;
+    margin-bottom: 5px;
+
+}
+
+.container-propaganda .videos-recomendados .video{
+    display: flex;
+    justify-content: center;
+}
