@@ -20,8 +20,30 @@ body{
 
 .header{
     grid-area: header;
-    background-color: salmon;
+    background-color: #FFFFFF;
+    
 }
+
+.header .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+    min-height: 75px;
+}
+
+.header .header-container .logo h1{
+    font-weight: 700;
+    font-size: 3rem;
+    transition: 0.3s;
+}
+
+.header .logo h1:hover{
+    color: coral;
+    cursor: pointer;
+}
+
+
 
 .hero{
     grid-area: hero;
