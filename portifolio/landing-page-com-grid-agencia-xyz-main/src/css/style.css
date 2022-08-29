@@ -42,9 +42,6 @@ body{
     color: coral;
     cursor: pointer;
 }
-
-
-
 .hero{
     grid-area: hero;
     height: 85vh;
@@ -205,10 +202,10 @@ body{
     grid-template-columns: repeat(4, 1fr);
 }
 
-.projects .project{
-    width: 100%;
+.projects .project img{
     height: 100%;
 }
+
 
 .projects .project a:hover img{
     opacity: 0.8;
@@ -231,5 +228,55 @@ body{
 
 .footer{
     grid-area: footer;
-    background-color: magenta;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    text-align: center;
+    padding: 100px 0;
 }
+
+.footer h4{
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+}
+
+.footer nav{
+    margin: 50px 0;
+}
+
+.footer nav ul{
+    display: flex;
+    justify-content: center;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.footer nav ul li a{
+    margin: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    transition: 0.3s;
+
+}
+
+.footer nav ul li a:hover{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.social i{
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.social  a{
+    margin: 20px;
+
+}
+
+.social i:hover{
+    color: #FFFFFF;
+}
+
