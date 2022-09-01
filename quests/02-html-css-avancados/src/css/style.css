@@ -6,15 +6,36 @@ html{
 }
 
 body{
+    display: grid;
+    grid-template-areas: 
+    "header header" 
+    "container container"
+    "footer footer";
+    grid-template-columns: repeat(2, 1fr);
     font-family: 'Open Sans', sans-serif;
-    
     max-width: 1440px;
     margin: 0 auto;
+    padding: 50px 80px;
 }
 
+
+/* .header{
+    grid-area: header;
+}
+
+.container{
+    grid-area: container;
+}
+
+.footer{
+    grid-area: footer;
+} */
+
+
 .header{
-    grid-area: "header";
-    padding: 50px 80px 20px;
+    grid-area: header;
+    margin: 80px 0;
+    
 }
 
 .header img{
@@ -22,21 +43,19 @@ body{
 }
 
 .container{
+    grid-area: container;
     display: grid;
-    grid-template-areas: "header header" 
-    "illustration info-container"
-    "footer footer";
-    padding: 50px 80px;
+    grid-template-columns: 1fr 1fr;
+    
 }
 
+
 .illustration{
-    grid-area: "illustration";
     height: 100%;
-    width: 600px;
+    
 }
 
 .info-container{
-    grid-area: "info-container";
     color: #FFFFFF;
     display: flex;
     flex-direction: column;
@@ -52,13 +71,13 @@ body{
 
 .info-container .info-text{
     
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: 400;
     margin-top: 20px;
 }
 
 .info-container .btn-register button{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     width: 150px;
     background-color: #FFFFFF;
     color: hsl(257, 40%, 49%);
@@ -75,7 +94,7 @@ body{
 }
 
 .footer{
-    grid-area: "footer";
+    grid-area: footer;
     display: flex;
     justify-content: flex-end;
     align-content: flex-end;
@@ -83,7 +102,6 @@ body{
 
 .footer .socials{
     font-size: 4rem;
-    padding: 20px 80px;
 }
 
 .footer .socials a i {
@@ -94,3 +112,4 @@ body{
 .footer .socials a i:hover{
     color: hsl(300, 69%, 71%);
 }
+
