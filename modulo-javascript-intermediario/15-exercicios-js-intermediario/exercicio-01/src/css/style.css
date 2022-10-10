@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
+
+.amarelo{
+    background-color: yellow;
+}
+
+#button{
+    width: 85px;
+    height: 25px;
+    font-weight: 700;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+#button:active{
+    height: 30px;
+    width: 90px;
+    background-color: rgb(25, 183, 25);
+}
