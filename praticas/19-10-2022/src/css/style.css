@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+
+}
+.container-inputs{
+}
+
+.container-inputs .campo-nome{
+    width: 33vw;
+    padding: 30px 10px;
+    margin-bottom: 25px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+.container-inputs .campo-nome .label-nome{
+    margin-right: 10px;
+}
+
+.container-inputs .campo-email {
+    width: 33vw;
+    padding: 30px 10px;
+    margin-bottom: 25px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+}
+
+.container-inputs .campo-email .input{
+    margin: 15px;
+
+}
+
+.container-inputs .campo-email .label-email{
+    margin-right: 10px;
+}
+
+.resultado{
+    text-align: center;
+    background-color: brown;
+    height: 300px;
+    color: white;
+    padding: 10px;
+}
