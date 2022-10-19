@@ -7,28 +7,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <title>Mini portifólio - Gustavo Montenegro</title>
 </head>
 <body>
     <main class="cartao">
         <div class="minhas-informacoes ">
             <img src="src/imagens/foto-perfil.jpg" alt=""foto  de perfil">
-            <h1 class="nome">Gustavo Montenegro Tavares</h1>
+            <h1 class="nome">Gustavo Montenegro</h1>
             <h2 class="cargo">Desenvolvedor Frontend Júnior</h2>
         </div>
 
         <div class="conteudo">
             <ul class="abas">
-                <li class="aba">
+                <li class="aba selecionado" id="sobre-mim">
                     <img src="./src/imagens/sobre.gif" alt="icone sobre mim">
                 </li>
-                <li class="aba">
+                <li class="aba" id="minhas-redes">
                     <img src="./src/imagens/coracao.gif" alt="icone de redes sociais">
                 </li>
             </ul>
 
             <div class="informacoes-abas">
-                <div class="informacao">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
                     <h3 class="sub-titulo">Sobre</h3>
 
                     <div class="descricao">
@@ -36,14 +38,14 @@
                             Oi! Meu nome é Gustavo Montenegro Tavares, Seja bem-vindo(a)!
 
                             <p>
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nulla optio ab repellat cupiditate, dicta nesciunt dolorum nisi iure ipsam placeat, explicabo quaerat! <span>Lorem ipsum dolor sit amet consectetur adipisicing 
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit nulla optio ab repellat cupiditate, dicta nesciunt dolorum nisi iure ipsam placeat, explicabo quaerat! <span>Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem molestias consequatur eveniet accusantium nobis. Necessitatibus nemo ducimus deserunt odit, quasi alias placeat. Consequuntur explicabo suscipit soluta perferendis ipsam praesentium ab.
                                 </span>
                             </p>
                         </p>
                     </div>
 
                 </div>
-                <div class="informacao">
+                <div class="informacao" id="informacao-minhas-redes">
                     <h3 class="sub-titulo">Minhas Redes</h3>
 
                     <ul class="redes-sociais">
@@ -61,5 +63,7 @@
             </div>
         </div>
     </main>
+
+    <script type="text/javascript" src="./src/js/index.js"></script>
 </body>
 </html>
