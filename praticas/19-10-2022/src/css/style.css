@@ -42,4 +42,5 @@ body{
     height: 300px;
     color: white;
     padding: 10px;
+    overflow: scroll;
 }
