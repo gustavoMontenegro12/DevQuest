@@ -1,0 +1,26 @@
+.menu .acordeon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 361px;
+    height: 20px;
+}
+
+
+.menu .seta{
+    width: 15px;
+    height: 9px;
+    
+}
+.menu .seta-aberta{
+    background-image: url(../imagens/seta-aberta.png);
+}
+
+.menu .seta-fechada{
+    background-image: url(../imagens/seta-fechada.png);
+}
+
+
+
+.menu .seta.mostrar{
+}
